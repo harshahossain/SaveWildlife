@@ -1,0 +1,197 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  max-width: 99.15%;
+  background-color: #104436;
+  font-family: "Nunito", sans-serif;
+}
+
+#main-nav {
+  background: none;
+  font-size: 1.5rem;
+  background-size: cover;
+  font-weight: 100;
+}
+#main-nav .navbar-brand {
+  color: #ffb703;
+  text-shadow: #fc0 1px 0 10px;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+
+  font-size: 1.5rem;
+}
+
+#main-nav .nav-link {
+  color: white;
+}
+#main-nav .nav-link:hover {
+  color: #ffb703;
+}
+#headingGrp span {
+  color: #ffb703;
+}
+#headingGrp h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+.navbar.scrolled {
+  background: #081c15;
+  transition: background 500ms;
+}
+@media (max-width: 1200px) {
+  #headingGrp h1 {
+    font-size: 2rem;
+  }
+}
+.lead {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+.h2 {
+  color: #d9ed92;
+  font-weight: 100;
+}
+.numb {
+  color: #ea1c2c;
+  text-shadow: rgb(255, 72, 0) 1px 0 10px;
+}
+.img-fluid {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.content {
+  margin-bottom: 100px;
+}
+#last {
+  margin-bottom: 0px;
+}
+.last {
+  margin-bottom: none;
+}
